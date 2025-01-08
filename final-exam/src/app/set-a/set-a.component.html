@@ -1,0 +1,65 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-5 text-warning fw-bold">Q & A</h1>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">How to create reactive forms?</h5>
+      <p class="mt-2">
+        To create a reactive form, you first need to import ReactiveFormsModule into your Angular module. 
+        Define a FormGroup and FormControl in your component, then associate them with the template using Angular's form directives.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">How to add built-in validation for email in reactive forms?</h5>
+      <p class="mt-2">
+        Use Angular’s built-in Validators.email function, combined with Validators.required, to ensure the email field is not empty and follows a valid format.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">How to add built-in validation for required fields in reactive forms?</h5>
+      <p class="mt-2">
+        Use Validators.required to ensure that a field cannot be left empty when the form is submitted.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">How to add regex validation for reactive forms?</h5>
+      <p class="mt-2">
+        Apply custom regex validation using Validators.pattern(regex). The regex specifies the pattern that the input must match, useful for fields like phone numbers or postcodes.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">How to generate routing?</h5>
+      <p class="mt-2">
+        Routing is typically generated when you create an Angular project with routing enabled. You can also manually add it by importing RouterModule, defining your routes, and mapping paths to specific components.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">How to configure routes with parameters?</h5>
+      <p class="mt-2">
+        In Angular routing, configure routes with parameters by defining placeholders in the path, such as /users/:id. Access these parameters in the component using the ActivatedRoute service.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">What is DebounceTime in RxJS?</h5>
+      <p class="mt-2">
+        DebounceTime is an RxJS operator that delays the emission of values from an observable by a specified time. It is useful for avoiding rapid-fire events, such as typing in a search box, by only emitting the last value after a set period of inactivity.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">What is pipe operator?</h5>
+      <p class="mt-2">
+        The pipe operator in RxJS allows chaining multiple operators to transform the values emitted by an observable. It enables composing multiple operations in a readable and reusable manner.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">What is distinctUntilChanged operator?</h5>
+      <p class="mt-2">
+        The distinctUntilChanged operator emits values that are different from the last emitted value. It is useful for ignoring consecutive duplicate values in a stream of events.
+      </p>
+    </div>
+    <div class="qa-item p-4 rounded-3 mb-4 bg-light shadow-sm">
+      <h5 class="fw-bold">What is filter operator in RxJs?</h5>
+      <p class="mt-2">
+        The filter operator filters the emitted values from an observable based on a condition. It only emits values that pass the provided test function, discarding those that do not.
+      </p>
+    </div>
+  </div>
+  
